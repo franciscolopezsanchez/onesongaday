@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>The song of the day</p>
       </header>
+      <section>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/gNqyFbvlKeQ"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <button>
+          <a href="spotify:album:3gHcrdGWylFztt37G64Gkp">
+            Escuchala en Spotify
+          </a>
+        </button>
+      </section>
     </div>
   );
 }
