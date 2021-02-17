@@ -1,3 +1,4 @@
+import logo from "./spotify.ico";
 import "./App.css";
 
 function App() {
@@ -8,18 +9,15 @@ function App() {
       </header>
       <section>
         <iframe
-          width="560"
-          height="315"
+          className="Song-youtube-iframe"
           src="https://www.youtube.com/embed/wuJIqmha2Hk"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
-        <button>
-          <a href="spotify:track:2RlgNHKcydI9sayD2Df2xp">
-            Escuchala en Spotify
-          </a>
-        </button>
+
+        <img src={logo} className="Spotify-icon" alt="listen on spotiyf" />
+        <a href="spotify:track:2RlgNHKcydI9sayD2Df2xp">Escuchala en Spotify</a>
       </section>
     </div>
   );

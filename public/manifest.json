@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "One Song a Day",
+  "name": "Listen the best song of the day",
   "icons": [
     {
       "src": "favicon.ico",
