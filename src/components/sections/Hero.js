@@ -78,8 +78,8 @@ const Hero = ({
             allowfullscreen
           ></iframe>
 
-          <img src={logo} className="Spotify-icon" alt="listen on spotiyf" />
           <a href="spotify:track:2RlgNHKcydI9sayD2Df2xp">
+            <img src={logo} className="Spotify-icon" alt="listen on spotiyf" />
             Escuchala en Spotify
           </a>
         </div>
