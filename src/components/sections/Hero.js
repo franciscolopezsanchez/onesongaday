@@ -69,6 +69,7 @@ const Hero = ({
                 18 / febrero / 2021
               </p>
             </div>
+            <h3>Electric Light Orchestra - Mr. Blue Sky</h3>
           </div>
           <iframe
             className="Song-youtube-iframe"
@@ -80,7 +81,7 @@ const Hero = ({
 
           <a href="spotify:track:2RlgNHKcydI9sayD2Df2xp">
             <img src={logo} className="Spotify-icon" alt="listen on spotiyf" />
-            Escuchala en Spotify
+            Escúchala en Spotify
           </a>
         </div>
       </div>
