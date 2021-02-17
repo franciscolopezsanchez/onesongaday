@@ -5,9 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>The song of the day</p>
+        <h2>The song of the day</h2>
       </header>
       <section>
+        <h3>18 / febrero / 2021</h3>
         <iframe
           className="Song-youtube-iframe"
           src="https://www.youtube.com/embed/wuJIqmha2Hk"
