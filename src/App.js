@@ -10,13 +10,13 @@ function App() {
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/gNqyFbvlKeQ"
+          src="https://www.youtube.com/embed/wuJIqmha2Hk"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
         <button>
-          <a href="spotify:album:3gHcrdGWylFztt37G64Gkp">
+          <a href="spotify:track:2RlgNHKcydI9sayD2Df2xp">
             Escuchala en Spotify
           </a>
         </button>
